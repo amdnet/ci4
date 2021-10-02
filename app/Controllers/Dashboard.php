@@ -6,10 +6,17 @@ class Dashboard extends Controller
 {
     public function index()
     {
-        //$session = session();
-        //echo "Welcome back, ".$session->get('user_name');
-        
-        $data['pageName']= 'dashboard';
- 		$this->load->view('layout_template',$data);
+        return view('dashboard');
+        // echo view('layout/header');
+        // echo view('dashboard');
+        // echo view('layout/footer');
+    }
+
+    public function konsumen()
+    {
+        echo view('layout/header');
+        echo view('layout/sidebar');
+        echo view('konsumen');
+        echo view('layout/footer');
     }
 }
