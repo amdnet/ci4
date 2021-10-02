@@ -14,9 +14,9 @@ class Dashboard extends Controller
 
     public function konsumen()
     {
-        echo view('layout/header');
-        echo view('layout/sidebar');
+        // echo view('layout/header');
+        // echo view('layout/sidebar');
         echo view('konsumen');
-        echo view('layout/footer');
+        // echo view('layout/footer');
     }
 }

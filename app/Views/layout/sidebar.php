@@ -55,7 +55,6 @@
             </a>
           </li>
           
-          <li class="nav-header">MISCELLANEOUS</li>
           <li class="nav-item">
             <a href="https://adminlte.io/docs/3.1/" target="_blank" class="nav-link">
               <i class="nav-icon fas fa-file"></i>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="<?= base_url() ?>/assets/css/icheck-bootstrap.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>/assets/css/adminlte.min.css">
 </head>
+
 <body class="hold-transition sidebar-mini">
 
 <div class="wrapper">
