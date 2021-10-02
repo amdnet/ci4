@@ -8,5 +8,8 @@ class Dashboard extends Controller
     {
         //$session = session();
         //echo "Welcome back, ".$session->get('user_name');
+        
+        $data['pageName']= 'dashboard';
+ 		$this->load->view('layout_template',$data);
     }
 }
